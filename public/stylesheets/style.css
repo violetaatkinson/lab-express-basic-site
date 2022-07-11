@@ -68,8 +68,12 @@ nav ul {
     align-items: center;
     margin-left: -40px;
     padding-top: 5px;
-    color: white;
     font-weight: 500;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
 /* works  */
