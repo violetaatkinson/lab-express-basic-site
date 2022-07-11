@@ -1,0 +1,182 @@
+html body {
+    margin: 0px;
+    font-family: 'Finlandica', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* notFound */
+
+.b {
+    color: red;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.river {
+    height: 35px;
+
+}
+
+.fantasma {
+    background: url("../images/b.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* no scrolling bar */
+}
+
+/* header logos */
+
+#top-logos {
+    background-color: rgb(18, 51, 146);
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    margin-top: -8px;
+}
+
+.boca {
+    margin-left: 30px;
+}
+
+.adidas {
+    height: 68px;
+    margin-left: 840px;
+}
+
+/* navigation */
+
+nav {
+    width: 100%;
+    background-color: rgb(11, 36, 110);
+    height: 30px;
+    margin-top: -16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -40px;
+    padding-top: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+/* works  */
+.copas {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    margin-top: 30px;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+.copa-3 {
+    height:400px
+ }
+
+ .copa-5 {
+    height:400px
+ }
+
+ .copa-6 {
+    height:380px
+ }
+
+
+/* about  */
+
+.boca-background {
+    background: url("../images/jugadores.jpg");
+    height: 1000px;
+    width: auto;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.historia {
+    color: rgb(18, 51, 146);
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+
+
+/* home  */
+
+.bombonera {
+    background: url("../images/bombonera1.jpg");
+    height: 850px;
+    width: auto;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.socio {
+    background-color: rgb(18, 51, 146);
+    width: 100%;
+    color: white;
+    margin-top: -20px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socio h2 {
+    margin-top: -10px;
+}
+
+#text {
+    margin-top: 5px;
+}
+
+.socio button {
+    margin-top: 7px;
+    background-color: rgb(11, 36, 110);
+    color: white;
+    letter-spacing: 2px;
+    border-color: white;
+    padding: 7px 35px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.matches {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(11, 36, 110);
+    margin-top: -16px;
+    color: white;
+}
+
+.matches p {
+    text-align: center;
+   padding-top: 10px;
+}
+
+.partidos {
+    margin-left: 290px;
+    margin-top: 30px;
+   height: 350px;
+}
+
+
+
